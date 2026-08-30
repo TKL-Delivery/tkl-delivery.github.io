@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="TKL Delivery — donas recién hechas con delivery en toda CABA.">
+<title>TKL Delivery | Donas en CABA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">🍩 Donas recién hechas · Delivery en toda CABA · Pedidos por WhatsApp</div>
+<header class="site-header">
+  <a class="brand" href="#inicio"><img src="assets/logo.svg" alt="TKL Delivery"></a>
+  <nav><a href="#inicio">Inicio</a><a href="#donas">Donas</a><a href="#como-pedir">Cómo pedir</a><a href="#contacto">Contacto</a></nav>
+  <button class="cart-trigger" id="openCart">Mi pedido <b id="cartCount">0</b></button>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-copy">
+    <div class="eyebrow">CABA · SOLO DELIVERY</div>
+    <h1>El antojo<br><span>que llega a tu puerta.</span></h1>
+    <p>Donas suaves, frescas y hechas para disfrutar. Elegí tus favoritas y armá tu pedido.</p>
+    <div class="hero-actions"><a class="btn primary" href="#donas">Ver menú <span>↓</span></a><a class="btn ghost" href="https://wa.me/5491160174410" target="_blank" rel="noopener">WhatsApp</a></div>
+    <div class="hero-meta"><span>✓ Toda CABA</span><span>✓ Efectivo</span><span>✓ Transferencia</span></div>
+  </div>
+  <div class="hero-photo"><img src="assets/hero-donas.jpg" alt="Donas simples, de dulce de leche y de chocolate"><div class="photo-stamp">HECHAS<br><small>con amor</small> ♥</div></div>
+</section>
+
+<section class="section menu" id="donas">
+  <div class="section-title"><div><span class="eyebrow pink">NUESTRO MENÚ</span><h2>Donas para cada antojo</h2></div><p>Precios claros y cajas para compartir.</p></div>
+  <div class="products">
+    <article class="product-card"><div class="product-photo"><img src="assets/dona-simple.jpg" alt="Dona simple con azúcar"></div><div class="product-content"><span class="pill">CLÁSICA</span><h3>Simple</h3><p>Con azúcar. Suave, doradita y recién hecha.</p><div class="prices"><button data-name="Dona simple" data-qty="1" data-price="1000"><span>1 unidad</span><strong>$1.000</strong></button><button data-name="Donas simples" data-qty="6" data-price="5000"><span>6 unidades</span><strong>$5.000</strong></button><button data-name="Donas simples" data-qty="12" data-price="10000"><span>12 unidades</span><strong>$10.000</strong></button></div></div></article>
+    <article class="product-card featured"><div class="product-photo"><img src="assets/dona-dulce.jpg" alt="Dona rellena de dulce de leche"><span class="photo-tag">FAVORITA</span></div><div class="product-content"><span class="pill">RELLENA</span><h3>Dulce de leche</h3><p>Rellena con dulce de leche, cremosa y abundante.</p><div class="prices"><button data-name="Dona de dulce de leche" data-qty="1" data-price="1200"><span>1 unidad</span><strong>$1.200</strong></button><button data-name="Donas de dulce de leche" data-qty="6" data-price="6000"><span>6 unidades</span><strong>$6.000</strong></button><button data-name="Donas de dulce de leche" data-qty="12" data-price="12000"><span>12 unidades</span><strong>$12.000</strong></button></div></div></article>
+    <article class="product-card"><div class="product-photo"><img src="assets/dona-chocolate.jpg" alt="Dona cubierta de chocolate"><span class="photo-tag dark">CHOCOLATE</span></div><div class="product-content"><span class="pill">CHOCOLATE</span><h3>Chocolate</h3><p>Cubierta con chocolate y una terminación bien golosa.</p><div class="prices"><button data-name="Dona de chocolate" data-qty="1" data-price="1200"><span>1 unidad</span><strong>$1.200</strong></button><button data-name="Donas de chocolate" data-qty="6" data-price="6000"><span>6 unidades</span><strong>$6.000</strong></button><button data-name="Donas de chocolate" data-qty="12" data-price="12000"><span>12 unidades</span><strong>$12.000</strong></button></div></div></article>
+  </div>
+</section>
+
+<section class="trust"><div><span>🍩</span><strong>Frescura primero</strong><small>Preparamos tus donas para que lleguen listas para disfrutar.</small></div><div><span>🛵</span><strong>Toda CABA</strong><small>Coordinamos el envío mediante una app de delivery.</small></div><div><span>💳</span><strong>Pago fácil</strong><small>Efectivo o transferencia.</small></div></section>
+
+<section class="section how" id="como-pedir"><div class="section-title centered"><span class="eyebrow pink">SIMPLE Y RÁPIDO</span><h2>Tu pedido en 3 pasos</h2></div><div class="steps"><div><b>01</b><span>🍩</span><h3>Elegí tus donas</h3><p>Seleccioná la presentación que quieras.</p></div><div><b>02</b><span>🛒</span><h3>Completá tus datos</h3><p>Dirección, forma de pago y una nota si hace falta.</p></div><div><b>03</b><span>💬</span><h3>Confirmá por WhatsApp</h3><p>Recibimos tu pedido y coordinamos el envío.</p></div></div></section>
+
+<section class="delivery section"><div class="delivery-panel"><div><span class="eyebrow pink">DELIVERY</span><h2>De TKL a tu puerta.</h2><p>Hacemos envíos a <strong>toda CABA</strong>. El reparto se puede coordinar mediante una app de delivery; el costo del viaje se abona aparte y corre por cuenta del cliente.</p></div><div class="payment-box"><strong>Medios de pago</strong><span>💵 Efectivo</span><span>🏦 Transferencia</span><small>Los datos de transferencia se coordinan por WhatsApp.</small></div></div></section>
+
+<section class="coming"><div class="coming-icon">🍲</div><div><span class="eyebrow pink">PRÓXIMAMENTE</span><h2>Comida del día</h2><p>Muy pronto: platos caseros para resolver el almuerzo.</p></div></section>
+<section class="contact section" id="contacto"><div><span class="eyebrow pink">¿LISTO PARA PEDIR?</span><h2>Hablemos por WhatsApp</h2><p>11 6017-4410 · CABA</p></div><a class="btn whatsapp" href="https://wa.me/5491160174410" target="_blank" rel="noopener">Abrir WhatsApp →</a></section>
+</main>
+<footer><img src="assets/logo.svg" alt="TKL Delivery"><span>Donas & delivery · CABA</span><a href="https://wa.me/5491160174410" target="_blank" rel="noopener">11 6017-4410</a></footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="cart" id="cart"><div class="cart-head"><div><span class="eyebrow pink">TU PEDIDO</span><h2>Antes de enviar</h2></div><button id="closeCart">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-summary"><div class="total"><span>Productos</span><strong id="cartTotal">$0</strong></div><div class="delivery-note">🛵 Delivery por app · envío a cargo del cliente</div><button class="btn whatsapp full" id="goCheckout">Continuar con el pedido →</button></div></aside>
+
+<div class="checkout" id="checkout"><div class="checkout-card"><button class="modal-close" id="closeCheckout">×</button><div class="checkout-head"><span class="eyebrow pink">ÚLTIMO PASO</span><h2>Datos de entrega</h2><p>Completá los datos y te llevamos el pedido a WhatsApp.</p></div><form id="checkoutForm"><label>Nombre y apellido<input name="name" required autocomplete="name" placeholder="Ej. Juan Pérez"></label><label>Dirección de entrega<input name="address" required autocomplete="street-address" placeholder="Calle y número, CABA"></label><div class="two"><label>Piso / depto. <span>(opcional)</span><input name="apt" placeholder="Ej. 4° B"></label><label>Teléfono de contacto<input name="phone" required autocomplete="tel" placeholder="11 1234-5678"></label></div><fieldset><legend>Forma de pago</legend><label class="radio"><input type="radio" name="payment" value="Efectivo" required> <span>💵 Efectivo</span></label><label class="radio"><input type="radio" name="payment" value="Transferencia"> <span>🏦 Transferencia</span></label></fieldset><label>Indicaciones para el delivery <span>(opcional)</span><textarea name="notes" rows="3" placeholder="Timbre, portería, horario, etc."></textarea></label><div class="checkout-total"><span>Total de productos</span><strong id="checkoutTotal">$0</strong></div><div class="checkout-disclaimer">El costo del envío por la app no está incluido en este total y lo abona el cliente.</div><button class="btn whatsapp full" type="submit">💬 Enviar pedido por WhatsApp</button></form></div></div>
+<div class="toast" id="toast">✓ Agregado a tu pedido</div>
+<script src="app.js"></script>
+</body></html>
